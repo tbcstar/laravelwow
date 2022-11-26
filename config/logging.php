@@ -8,7 +8,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Log Channel
+    | Default Log Channel默认日志通道
     |--------------------------------------------------------------------------
     |
     | This option defines the default log channel that gets used when writing

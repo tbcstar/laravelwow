@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Mailer
+    | Default Mailer默认邮件程序
     |--------------------------------------------------------------------------
     |
-    | This option controls the default mailer that is used to send any email
-    | messages sent by your application. Alternative mailers may be setup
-    | and used as needed; however, this mailer will be used by default.
+    | 此选项控制用于发送应用程序发送的任何电子邮件消息的默认邮件程序。
+    | 可以根据需要设置和使用替代邮件程序；
+    | 但是，默认情况下将使用此邮件程序。
     |
     */
 
@@ -17,18 +17,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mailer Configurations
+    | Mailer Configurations邮件配置
     |--------------------------------------------------------------------------
     |
-    | Here you may configure all of the mailers used by your application plus
-    | their respective settings. Several examples have been configured for
-    | you and you are free to add your own as your application requires.
+    | 在这里您可以配置您的应用程序使用的所有邮件程序及其各自的设置。
+    | 已经为您配置了几个示例
+    | 您可以根据应用程序的需要自由添加自己的。
     |
-    | Laravel supports a variety of mail "transport" drivers to be used while
-    | sending an e-mail. You will specify which one you are using for your
-    | mailers below. You are free to add additional mailers as required.
+    | Laravel 支持发送电子邮件时使用的各种邮件“transport”驱动程序。
+    | 您将在下面指定您的邮件使用的是哪一个。
+    | 您可以根据需要自由添加其他邮件程序。
     |
-    | Supported: "smtp", "sendmail", "mailgun", "ses",
+    | 支持: "smtp", "sendmail", "mailgun", "ses",
     |            "postmark", "log", "array", "failover"
     |
     */
@@ -82,7 +82,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Global "From" Address
+    | Global "From" Address全局“发件人”地址
     |--------------------------------------------------------------------------
     |
     | You may wish for all e-mails sent by your application to be sent from
@@ -92,18 +92,18 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'admin@tbcstar.com'),
+        'name' => env('MAIL_FROM_NAME', '时光回溯项目组'),
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Markdown Mail Settings
+    | Markdown Mail SettingsMarkdown 邮件设置
     |--------------------------------------------------------------------------
     |
-    | If you are using Markdown based email rendering, you may configure your
-    | theme and component paths here, allowing you to customize the design
-    | of the emails. Or, you may simply stick with the Laravel defaults!
+    | 如果您使用基于 Markdown 的电子邮件呈现，您可以在此处配置您的主题和组件路径，
+    | 允许您自定义电子邮件的设计。
+    | 或者，您可以简单地坚持使用 Laravel 默认设置！
     |
     */
 

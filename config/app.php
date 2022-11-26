@@ -73,7 +73,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Locale Configuration
+    | Application Locale Configuration应用程序语言环境配置
     |--------------------------------------------------------------------------
     |
     | The application locale determines the default locale that will be used
@@ -82,11 +82,11 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'cn',
 
     /*
     |--------------------------------------------------------------------------
-    | Application Fallback Locale
+    | Application Fallback Locale应用程序备用区域设置
     |--------------------------------------------------------------------------
     |
     | The fallback locale determines the locale to use when the current one
@@ -99,7 +99,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Faker Locale
+    | Faker Locale Faker 语言环境
     |--------------------------------------------------------------------------
     |
     | This locale will be used by the Faker PHP library when generating fake

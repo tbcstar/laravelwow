@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Hash Driver
+    | Default Hash Driver默认Hash驱动程序
     |--------------------------------------------------------------------------
     |
     | This option controls the default hash driver that will be used to hash
@@ -19,7 +19,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Bcrypt Options
+    | Bcrypt Options密码选项
     |--------------------------------------------------------------------------
     |
     | Here you may specify the configuration options that should be used when
