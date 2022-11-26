@@ -7,7 +7,7 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
-| Check If The Application Is Under Maintenance
+| Check If The Application Is Under Maintenance检查应用程序是否处于维护状态
 |--------------------------------------------------------------------------
 |
 | If the application is in maintenance / demo mode via the "down" command
@@ -22,7 +22,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 
 /*
 |--------------------------------------------------------------------------
-| Register The Auto Loader
+| Register The Auto Loader注册自动加载器
 |--------------------------------------------------------------------------
 |
 | Composer provides a convenient, automatically generated class loader for
@@ -35,7 +35,7 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Run The Application
+| Run The Application运行应用程序
 |--------------------------------------------------------------------------
 |
 | Once we have the application, we can handle the incoming request using

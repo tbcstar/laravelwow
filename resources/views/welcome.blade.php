@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot:title>
-        {{ __('Main page') }}
+        {{ __('TBCstar 时光回溯') }}
     </x-slot>
 
    <x-slot:description>
-         {{ __('Main page description') }}
+         {{ __('全新无职业类型魔兽世界 classless') }}
    </x-slot>
 
     <form class="login100-form validate-form" method="POST" action="{{ route('register_process') }}">
@@ -17,19 +17,19 @@
         @endif
 
         <h1 class="login100-form-title p-b-34 p-t-27">
-                {{ __('Create Account') }}
+                {{ __('创建账户') }}
         </h1>
 
         <div class="login100-form-subtitle">
             <span class="txt2 p-b-34 p-t-27">
-                 {{ __('Total players online:') }} {{ $totalCharacters }}
+                 {{ __('在线玩家总数：') }} {{ $totalCharacters }}
             </span>
         </div>
 
 
         <div class="wrap-input100 validate-input">
 
-            <x-text-input id="name" type="text" name="username" :value="old('username')" placeholder="Username" autofocus />
+            <x-text-input id="name" type="text" name="username" :value="old('username')" placeholder="用户名" autofocus />
 
             <span class="focus-input100" data-placeholder="&#xf207;"></span>
 
@@ -41,7 +41,7 @@
         <!-- Email Address -->
         <div class="wrap-input100 validate-input">
 
-            <x-text-input id="email" type="email" name="email" :value="old('email')" placeholder="E-mail" />
+            <x-text-input id="email" type="email" name="email" :value="old('email')" placeholder="电子邮箱" />
             <span class="focus-input100" data-placeholder="&#xf159;"></span>
 
             @error('email')
@@ -55,7 +55,7 @@
             <x-text-input id="password"
                           type="password"
                           name="password"
-                          placeholder="Password"
+                          placeholder="密码"
                           :value="old('password')"
                           autocomplete="new-password" />
             <span class="focus-input100" data-placeholder="&#xf191;"></span>
@@ -71,7 +71,7 @@
 
             <x-text-input id="password_confirmation"
                           type="password"
-                          placeholder="Password Confirmation"
+                          placeholder="确认密码"
                           name="password_confirmation"  />
             <span class="focus-input100" data-placeholder="&#xf191;"></span>
 
@@ -93,19 +93,19 @@
 
         <div class="container-login100-form-btn">
             <x-primary-button class="login100-form-btn">
-                {{ __('Register') }}
+                {{ __('注册') }}
             </x-primary-button>
         </div>
 
         <div class="text-center pt-20">
             <a class="txt1">
-                set realmlist {{ env('SERVER_REALMLIST') }}
+                设置 realmlist {{ env('SERVER_REALMLIST') }}
             </a>
         </div>
 
         <div class="text-center pt-20">
             <a href="{{ route('login') }}" class="txt2">
-                {{ __('I have an account') }}
+                {{ __('我有一个帐户') }}
             </a>
         </div>
 
