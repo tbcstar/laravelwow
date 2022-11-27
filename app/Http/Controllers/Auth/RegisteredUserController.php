@@ -38,7 +38,6 @@ class RegisteredUserController extends Controller
             'username' => ['required', 'string', 'max:20', 'min:3', 'unique:account'],
             'email' => ['required', 'string', 'email:rfc,dns', 'max:255', 'unique:account'],
             'password' => ['required', 'confirmed', Rules\Password::min(4)],
-            'g-recaptcha-response' => 'required|captcha'
         ]);
         $validated['username'] = strtoupper($validated['username']);
 
